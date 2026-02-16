@@ -1,5 +1,10 @@
 package SingleResponsabilityPrinciple;
 
+/**
+ * One class = one job.
+ * Java tends to encourage big “service” classes, so SRP is about resisting the God Object.
+ */
+
 public class OrderService {
 
     private final OrderRepository repository;

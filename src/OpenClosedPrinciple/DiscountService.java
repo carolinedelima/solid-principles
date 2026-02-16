@@ -2,6 +2,11 @@ package OpenClosedPrinciple;
 
 import java.util.List;
 
+/**
+ * Add new behavior without changing existing code.
+ * Java’s interfaces and abstract classes make this clean.
+ */
+
 public class DiscountService {
     private final List<DiscountPolicy> policies;
 
